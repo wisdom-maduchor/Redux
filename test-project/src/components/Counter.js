@@ -32,7 +32,7 @@ const Counter = () => {
       {show && <div className={classes.value}>{counter}</div>}
       <div>
         <button onClick={IncrementDispatchHandler}>Increment</button>
-        <button onClick={IncreaseHandler}>Increment by 5</button>
+        <button onClick={IncreaseHandler}>Increment by 10</button>
         <button onClick={DecrementDispatchHandler}>Decrement</button>
       </div>
       <button onClick={toggleCounterHandler}>Toggle Counter</button>
